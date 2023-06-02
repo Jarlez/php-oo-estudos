@@ -1,5 +1,5 @@
 <?php
-
+namespace Classes;
 class Programador extends Funcionario
 {
 
@@ -7,13 +7,9 @@ class Programador extends Funcionario
 
     public function __construct($nome, $salario, $linguagem)
     {
-
         parent::__construct($nome, $salario);
         $this->linguagem = $linguagem;
-
-
     }
-
 
     public function getlinguagem()
     {
@@ -26,20 +22,3 @@ class Programador extends Funcionario
         return $this;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-?>

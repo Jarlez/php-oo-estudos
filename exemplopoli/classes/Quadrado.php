@@ -1,10 +1,7 @@
 <?php 
 
-
 namespace Classes;
 use Interfaces\ICalculos;
-
-
 
 class Quadrado extends Figura implements ICalculos{ 
     const AUTOR = "Jarles Sayhare";
@@ -17,20 +14,6 @@ class Quadrado extends Figura implements ICalculos{
         echo parent::TESTE;
         */
         }
-        
-
-       
-
 }
-
-
-
-
-
-
-
-
-
-
 
 ?>

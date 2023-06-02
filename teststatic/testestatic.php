@@ -3,6 +3,7 @@
 class Aplicacao
 {
     public static $quantInstancias;
+
     public function __construct()
     {
         static::$quantInstancias++;
@@ -10,12 +11,10 @@ class Aplicacao
 
     public static function getQuantInstancias()
     {
-
         return static::$quantInstancias;
     }
 
 }
-
 
 $instancia1 = new Aplicacao();
 echo Aplicacao::$quantInstancias . "<br/>";

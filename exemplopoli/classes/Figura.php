@@ -2,7 +2,7 @@
 
 namespace Classes;
 
- abstract class Figura{
+abstract class Figura{
 
 protected $x;
 protected $y;
@@ -22,9 +22,6 @@ echo $this->x*$this->y . "<br/>";
 }
 
 */
-
 }
-
-
 
 ?>

@@ -4,7 +4,9 @@ require_once "Cadastro.php";
 
 $cadastro = new Cadastro();
 
-$cadastro->create($_POST["nome"], $_POST["telefone"], $_POST["email"]);
-header('Location: listar_usuarios.php');
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $cadastro->create($_POST["nome"], $_POST["telefone"], $_POST["email"]);
+    header('Location: listar_usuarios.php');
+}
 
 ?>

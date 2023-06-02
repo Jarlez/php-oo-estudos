@@ -1,25 +1,17 @@
 <?php
 
-
 namespace Classes;
 
 class Gerente extends Funcionario
-{
 
+{
     private $projeto;
 
     public function __construct($nome, $salario, $projeto)
     {
-
         parent::__construct($nome, $salario);
         $this->projeto = $projeto;
-
-
     }
-
-
-
-
 
     public function getProjeto()
     {
@@ -29,7 +21,6 @@ class Gerente extends Funcionario
     public function setProjeto($projeto)
     {
         $this->projeto = $projeto;
-
         return $this;
     }
 }
