@@ -16,6 +16,6 @@
 <li>PHP Data Objects</li>
 <li>Prepared Statemens</li>
 <li>Componentes PHP</li>
-<li>Composer</li>
+<li>Composer</li> </br>
 
 Instruído pelo Professor e Doutor [Thyago Maia.](https://www.linkedin.com/in/thyagomaia/)
